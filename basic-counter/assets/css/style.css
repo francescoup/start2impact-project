@@ -79,22 +79,55 @@ button{
   margin-bottom: -20px;
 }
 
-@media (min-width: 481px) and (max-width: 900px) {
+@media (min-width: 481px) and (max-width: 768px) {
 .counter{
   width: 450px;
-  height: 405px;
+  height: 450px;
 }
+
 .counter h1{
   font-size: 180px;
 }
+
 .show-reset{
   width: 450px;
   height: 100px;
   font-size:40px;
 }
+
 button{
   width: 450px;
   height: 100px;
   font-size:45px
 }
+}
+
+@media (min-width: 769px) and (max-width: 900px){
+  body{
+    flex-direction: row;
+  }
+
+  .counter{
+    box-shadow: none;
+  }
+
+  button{
+    width: 100px;
+    height: 250px;
+    font-size:45px
+  }
+
+  .counter-up{
+    border-top-right-radius:0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+  }
+
+  .counter-less{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius:0;
+
+  }
 }
