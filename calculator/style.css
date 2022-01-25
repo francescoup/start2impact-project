@@ -1,0 +1,53 @@
+body{
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:  500px;
+}
+
+.calc-wrap{
+  width: 220px;
+}
+
+.display{
+  width: 92%;
+  height: 30px;
+  margin-bottom: 20px;
+  border:none;
+  background: #000;
+  color: white;
+  font-size: 26px;
+  text-align: right;
+}
+
+button{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 2px;
+  cursor:pointer;
+}
+button:hover{
+  opacity: 0.9;
+}
+.num{
+  border:none;
+  background: #483737;
+  color: white;
+  font-weight: bold;
+}
+.oper{
+border:none;
+background: #ffb900;
+color: white;
+font-weight: bold;
+}
+
+
+
+.delete, .pot, .rad, .canc{
+  background: #ffaaaa;
+  border:none;
+  font-weight: bold;
+}
