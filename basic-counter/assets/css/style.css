@@ -78,3 +78,23 @@ button{
 .counter-less:hover{
   margin-bottom: -20px;
 }
+
+@media (min-width: 481px) and (max-width: 900px) {
+.counter{
+  width: 450px;
+  height: 405px;
+}
+.counter h1{
+  font-size: 180px;
+}
+.show-reset{
+  width: 450px;
+  height: 100px;
+  font-size:40px;
+}
+button{
+  width: 450px;
+  height: 100px;
+  font-size:45px
+}
+}

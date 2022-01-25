@@ -53,7 +53,7 @@ function displayReset(){
     showReset.style.top='-10px';
   }
   else {
-    showReset.style.top='-100px';
+    showReset.style.top='-120px';
   }
 }
 
